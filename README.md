@@ -26,7 +26,7 @@ Clone this repository using the following command:
 
 bash
 Copy code
-git clone https://github.com/yourusername/portfolio-repo.git
+git clone https://github.com/franku69/ePortfolio.git
 Open the project folder and launch the index.html file in your browser:
 
 bash
