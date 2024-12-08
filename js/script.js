@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             imageSrc: "assets/images/roblox.jpg",
             githubLink: "https://www.roblox.com/games/119264217516627/Isekai-Tower-of-Heptesies",
         },
-        // Add more project objects as needed
+      
     ];
 
     // Generate carousel items

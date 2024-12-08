@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - ePortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -62,8 +63,8 @@
         </p>
        
         <ul>
-            <li><strong>Full Stack Development:</strong> Proficient in the MERN Stack (MongoDB, Express.js, React, Node.js) for building responsive, full-stack web applications.</li>
-            <li><strong>Backend Frameworks:</strong> Skilled in developing robust APIs using Flask, Express.js, and other modern frameworks.</li>
+            <li><strong>Full Stack Development:</strong> Capable in MERN Stack (MongoDB, Express.js, React, Node.js) for building responsive, full-stack web applications.</li>
+            <li><strong>Backend Frameworks:</strong> Capable in developing robust APIs using Flask, Express.js, and other modern frameworks.</li>
             <li><strong>Frontend Development:</strong> Experienced in crafting intuitive and engaging interfaces with React, JavaScript, and CSS frameworks like Bootstrap and Tailwind CSS.</li>
             <li><strong>Game Development:</strong> Designing and coding immersive games using Java, C#, and Roblox Studio (Lua scripting).</li>
             <li><strong>Roblox Game Development:</strong> Specializing in creating multiplayer mechanics and systems that engage and excite players.</li>
@@ -89,37 +90,44 @@
         <button class="carousel-nav next" aria-label="Next Project">›</button>
     </div>
 </section>
-    <!-- Contact Section -->
+ 
 <!-- Contact Section -->
-<!-- Contact Section -->
-<section id="contact" class="section-contact">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/mdkovada" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Submit</button>
+<section id="contact" class="p-8 bg-gradient-to-b from-[#1e293b] to-[#0f172a] text-black">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+    <form action="https://formspree.io/f/mdkovada" method="POST" class="max-w-lg mx-auto p-6 bg-gray-50 border border-gray-200 rounded-lg shadow-lg">
+        <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-medium mb-2">Name:</label>
+            <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-medium mb-2">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-medium mb-2">Message:</label>
+            <textarea id="message" name="message" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
     </form>
 </section>
 
-    <footer>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-            <p style="margin: 0; font-size: 1rem; font-weight: 400;">&copy; 2024 <strong>Isaiah Marc R. Postrero</strong>. All rights reserved.</p>
-            <p style="margin: 0; font-size: 1rem;">Contact: <a href="mailto:your.impostrero@gmail.com" style="color: #1ABC9C; text-decoration: none; transition: color 0.3s; cursor: none;">impostrero@gmail.com</a></p>
-            <p style="margin: 10px 0 0; font-size: 1rem; display: flex; align-items: center; gap: 5px;">
-                <a href="#top" style="display: inline-flex; align-items: center; text-decoration: none; color: #F39C12; font-weight: bold; border: 2px solid #F39C12; padding: 10px 20px; border-radius: 5px; transition: all 0.3s; position: relative; overflow: hidden;">
-                    <span style="position: relative; z-index: 1;">Back to top</span>
-                    <span style="position: absolute; top: 50%; right: -25px; transform: translateY(-50%); width: 15px; height: 15px; border: solid #F39C12; border-width: 2px 2px 0 0; transform: rotate(45deg); transition: all 0.3s;"></span>
-                </a>
-            </p>
-        </div>
-    </footer>
+<footer class="flex flex-col items-center gap-2 p-4 bg-gray-100 text-center">
+    <p class="m-0 text-base font-normal">
+        &copy; 2024 <strong>Isaiah Marc R. Postrero</strong>. All rights reserved.
+    </p>
+    <p class="m-0 text-base">
+        Contact: 
+        <a href="mailto:your.impostrero@gmail.com" class="text-emerald-500 hover:text-emerald-600 transition duration-300">
+            impostrero@gmail.com
+        </a>
+    </p>
+    <p style="margin: 10px 0 0; font-size: 1rem; display: flex; align-items: center; gap: 5px;">
+        <a href="#top" style="display: inline-flex; align-items: center; text-decoration: none; color: #F39C12; font-weight: bold; border: 2px solid #F39C12; padding: 10px 20px; border-radius: 5px; transition: all 0.3s; position: relative; overflow: hidden;">
+            <span style="position: relative; z-index: 1;">Back to top</span>
+            <span style="position: absolute; top: 50%; right: -25px; transform: translateY(-50%); width: 15px; height: 15px; border: solid #F39C12; border-width: 2px 2px 0 0; transform: rotate(45deg); transition: all 0.3s;"></span>
+        </a>
+    </p>
+</footer>
     <script src="js/script.js"></script>
 </body>
 
