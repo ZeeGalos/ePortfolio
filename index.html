@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - ePortfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section-home">
+        <div class="container">
+            <img src="assets/images/profile.jpg" alt="Your Profile Picture" class="profile-img">
+        </div>
+             <!-- Text Content -->
+             <div class="text-content">
+                <h2>Hi, I'm Isaiah Marc R. Postrero</h2>
+                <h3>3rd year Computer Science Student</h3>
+                <p>I’m a driven and innovative Computer Science student and an aspiring software developer with a strong passion for solving problems and creating impactful solutions through technology. With experience in developing web applications, Roblox games etc, I thrive on turning complex ideas into functional and efficient projects. My ultimate goal is to continuously learn, innovate, and contribute to meaningful advancements in my field.</p>
+            </div>
+            
+            <div class="social-media">
+              
+                <a href="https://www.linkedin.com/in/isaiah-marc-postrero-80568630a/" target="_blank">
+                    <img src="assets/images/linkidn.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/franku69" target="_blank">
+                    <img src="assets/images/github.png" alt="GitHub">
+                </a>
+                <a href="https://web.facebook.com/orminty/" target="_blank">
+                    <img src="assets/images/facebook.png" alt="Facebook">
+                </a>
+            </div>
+    </section>
+    
+     <!-- About Section -->
+     <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate and versatile developer with a broad skill set in software and game development. 
+            With a strong foundation in modern technologies and frameworks, I thrive in creating innovative, scalable, and 
+            user-friendly solutions across various domains.
+        </p>
+        <p>
+            I’m always eager to explore new technologies and frameworks to expand my expertise and take on unique challenges. My work 
+            focuses on delivering high-quality solutions that combine technical precision with creative vision.
+        </p>
+       
+        <ul>
+            <li><strong>Full Stack Development:</strong> Proficient in the MERN Stack (MongoDB, Express.js, React, Node.js) for building responsive, full-stack web applications.</li>
+            <li><strong>Backend Frameworks:</strong> Skilled in developing robust APIs using Flask, Express.js, and other modern frameworks.</li>
+            <li><strong>Frontend Development:</strong> Experienced in crafting intuitive and engaging interfaces with React, JavaScript, and CSS frameworks like Bootstrap and Tailwind CSS.</li>
+            <li><strong>Game Development:</strong> Designing and coding immersive games using Java, C#, and Roblox Studio (Lua scripting).</li>
+            <li><strong>Roblox Game Development:</strong> Specializing in creating multiplayer mechanics and systems that engage and excite players.</li>
+        
+        </ul>
+        <p>
+            When I'm not coding, I enjoy contributing to open-source projects, experimenting with new programming paradigms, or brainstorming 
+            ideas for future projects.
+        </p>
+        <p>
+            Feel free to browse through my portfolio and reach out—let's create something exceptional together!
+        </p>
+    </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section-projects">
+    <h2>My Projects</h2>
+    <div class="carousel-container">
+        <button class="carousel-nav prev" aria-label="Previous Project">‹</button>
+        <div class="carousel">
+            <!-- Projects will be dynamically inserted here -->
+        </div>
+        <button class="carousel-nav next" aria-label="Next Project">›</button>
+    </div>
+</section>
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="section-contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mdkovada" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+    <footer>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <p style="margin: 0; font-size: 1rem; font-weight: 400;">&copy; 2024 <strong>Isaiah Marc R. Postrero</strong>. All rights reserved.</p>
+            <p style="margin: 0; font-size: 1rem;">Contact: <a href="mailto:your.impostrero@gmail.com" style="color: #1ABC9C; text-decoration: none; transition: color 0.3s; cursor: none;">impostrero@gmail.com</a></p>
+            <p style="margin: 10px 0 0; font-size: 1rem; display: flex; align-items: center; gap: 5px;">
+                <a href="#top" style="display: inline-flex; align-items: center; text-decoration: none; color: #F39C12; font-weight: bold; border: 2px solid #F39C12; padding: 10px 20px; border-radius: 5px; transition: all 0.3s; position: relative; overflow: hidden;">
+                    <span style="position: relative; z-index: 1;">Back to top</span>
+                    <span style="position: absolute; top: 50%; right: -25px; transform: translateY(-50%); width: 15px; height: 15px; border: solid #F39C12; border-width: 2px 2px 0 0; transform: rotate(45deg); transition: all 0.3s;"></span>
+                </a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
