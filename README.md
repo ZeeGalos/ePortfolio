@@ -32,7 +32,7 @@ Open your terminal or command prompt.
 
 Clone the repository using the following command:
 
-git clone https://github.com/franku69/ePortfolio.git
+git clone https://github.com/ZeeGalos/ePortfolio.git
 
 Navigate into the project directory:
 
